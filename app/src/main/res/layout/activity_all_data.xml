@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="50dp">
+
+        <TextView
+            android:id="@+id/alldataname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:textAllCaps="true"
+            tools:text="Name" />
+
+        <TextView
+            android:id="@+id/definition"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/infoColor"
+            android:textSize="16dp"
+            tools:text="Info" />
+
+</LinearLayout>
+</ScrollView>
